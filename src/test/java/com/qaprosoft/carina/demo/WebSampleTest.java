@@ -17,17 +17,16 @@ package com.qaprosoft.carina.demo;
 
 import java.util.List;
 
-import com.qaprosoft.carina.core.foundation.utils.tag.Priority;
-import com.qaprosoft.carina.core.foundation.utils.tag.TestPriority;
-import com.qaprosoft.carina.core.foundation.utils.tag.TestTag;
 import org.apache.commons.collections.CollectionUtils;
 import org.apache.commons.lang3.StringUtils;
-import org.testng.Assert;
-import org.testng.annotations.Test;
+import org.springframework.util.Assert;
 
 import com.qaprosoft.carina.core.foundation.AbstractTest;
 import com.qaprosoft.carina.core.foundation.dataprovider.annotations.XlsDataSourceParameters;
 import com.qaprosoft.carina.core.foundation.utils.ownership.MethodOwner;
+import com.qaprosoft.carina.core.foundation.utils.tag.Priority;
+import com.qaprosoft.carina.core.foundation.utils.tag.TestPriority;
+import com.qaprosoft.carina.core.foundation.utils.tag.TestTag;
 import com.qaprosoft.carina.demo.gui.components.FooterMenu;
 import com.qaprosoft.carina.demo.gui.components.NewsItem;
 import com.qaprosoft.carina.demo.gui.components.compare.ModelSpecs;
